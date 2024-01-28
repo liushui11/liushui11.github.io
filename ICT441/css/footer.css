@@ -1,0 +1,24 @@
+.footer {
+  padding: 50px 0 0;
+  background-color: #333;
+  color: #eee;
+}
+.footer .inner-1200 {
+  overflow: hidden;
+}
+.footer .inner-1200 dl {
+  float: left;
+  width: 25%;
+}
+.footer .inner-1200 dl dt {
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+.footer .inner-1200 dl dd {
+  line-height: 2;
+}
+.footer .copyright {
+  padding: 15px 0 30px;
+  text-align: center;
+  font-size: 12px;
+}

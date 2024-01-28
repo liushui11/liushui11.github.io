@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/news.css">
+</head>
+
+<body>
+  <!-- 头部 -->
+  <div class="header">
+    <div class="inner-1200">
+      <div class="logo">
+        <p style="color:#fff; margin-top:25px; font-size:20px; font-family:Tahoma, Geneva, sans-serif; ">The University of Sydney Dance</p>
+      </div>
+      <div class="nav">
+        <ul>
+           <li><a href="index.html">Home</a></li>
+          <li><a href="About.html">About</a></li>
+          <li><a href="Course.html">Course</a></li>
+          <li><a href="Information.html"> Information</a></li>
+          <li><a href="Address.html">Address</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- banner -->
+  <div class="banner">
+   <img src="images/2.jfif" alt="" height="389">
+  </div>
+
+  <!-- 主体 -->
+  <div class="main">
+    <div class="inner-1200">
+      <div class="container">
+        <!--侧边栏-->
+        <div class="sidebar">
+          <div class="sidebox">
+            <h2>课程推荐</h2>
+            <div class="tag">
+              <ul>
+                <li>ballet</li>
+                <li>Latin dance</li>
+                <li>Hip-hop</li>
+                <li>Jazz Dance</li>
+                <li>Classical dance</li>
+                <li>waltz</li>
+                <li>Gb</li>
+              </ul>
+            </div>
+          </div>
+          <div class="sidebox">
+            <h2>热门舞种</h2>
+            <ul class="pic">
+              <li>
+                <img src="images/1.jfif" alt="">
+                <p>ballet</p>
+              </li>
+              <li>
+                <img src="images/3.jfif" alt="">
+                <p>Latin dance</p>
+              </li>
+              <li>
+                <img src="images/7.jfif" alt="">
+                <p>GB</p>
+              </li>
+              <li>
+                <img src="images/4.jfif" alt="">
+                <p>Jazz Dance</p>
+              </li>
+              <li>
+                <img src="images/5.jfif" alt="">
+                <p>Classical dance</p>
+              </li>
+              <li>
+                <img src="images/6.jfif" alt="">
+                <p>waltz</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="list">
+          <ul>
+            <p>Dance is a science that takes dance art as the research object and conducts comprehensive, systematic and historical research on the special social phenomenon of dance. For the study of dance, in fact, it is necessary to comprehensively, systematically and scientifically figure out "what is dance?" "That's the question. In the past, some people once ridiculed us dancers as "well-developed limbs and simple brains"; There are also artists who say that we dancers "lack understanding...... Maybe it's because we have some dancers who only dance and don't know or can't clearly answer "What is dance?" </p>
+            <p>According to the classification of art, dance is a type of art, and dance must have the essence of art. The definition of art is simply as follows: art is a social phenomenon that uses actions, gestures, lines, colors, sounds, languages, words, etc. as means of expression to create a specific and vivid image that can be perceived, reflecting the aesthetic attributes of social life, and expressing the author's aesthetic evaluation and aesthetic ideals of social life. It is a form in which people understand and reflect social life from an aesthetic perspective, express people's emotions and thoughts, and are the concentrated embodiment of people's aesthetic relationship with the real world. Dance is a kind of art, so it must have the essential attributes of art and be restricted by its artistic commonality.
+</p>
+            <p>According to the classification of art, dance is a type of art, and dance must have the essence of art. The definition of art is simply as follows: art is a social phenomenon that uses actions, gestures, lines, colors, sounds, languages, words, etc. as means of expression to create a specific and vivid image that can be perceived, reflecting the aesthetic attributes of social life, and expressing the author's aesthetic evaluation and aesthetic ideals of social life. It is a form in which people understand and reflect social life from an aesthetic perspective, express people's emotions and thoughts, and are the concentrated embodiment of people's aesthetic relationship with the real world. Dance is a kind of art, so it must have the essential attributes of art and be restricted by its artistic commonality.
+</p>
+           
+            
+          </ul>
+        </div>
+        <div>
+       
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 底部 -->
+  <div class="footer">
+    <div class="inner-1200">
+      
+    </div>
+    <div class="copyright inner-1200">
+      <p>The University of Sydney Dance</p>
+    </div>
+  </div>
+</body>
+
+</html>

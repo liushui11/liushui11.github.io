@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/about.css">
+</head>
+
+<body>
+  <!-- 头部 -->
+  <div class="header">
+    <div class="inner-1200">
+      <div class="logo">
+         <p style="color:#fff; margin-top:25px; font-size:20px; font-family:Tahoma, Geneva, sans-serif; ">The University of Sydney Dance</p>      </div>
+      <div class="nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="About.html">About</a></li>
+          <li><a href="Course.html">Course</a></li>
+          <li><a href="Information.html"> Information</a></li>
+          <li><a href="Address.html">Address</a></li>
+          
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- banner -->
+  <div class="banner">
+   <img src="images/bj.png" alt="" height="149">
+  </div>
+
+  <!-- 主体 -->
+  <div class="main">
+    <div class="inner-1200">
+      <div class="container">
+        <!--侧边栏-->
+        <div class="sidebar">
+          <div class="sidebox">
+            <h2>课程推荐</h2>
+            <div class="tag">
+              <ul>
+                <li>ballet</li>
+                <li>Latin dance</li>
+                <li>Hip-hop</li>
+                <li>Jazz Dance</li>
+                <li>Classical dance</li>
+                <li>waltz</li>
+                <li>Gb</li>
+              </ul>
+            </div>
+          </div>
+          <div class="sidebox">
+            <h2>热门舞种</h2>
+            <ul class="pic">
+              <li>
+                <img src="images/1.jfif" alt="">
+                <p>ballet</p>
+              </li>
+              <li>
+                <img src="images/3.jfif" alt="">
+                <p>Latin dance</p>
+              </li>
+              <li>
+                <img src="images/7.jfif" alt="">
+                <p>GB</p>
+              </li>
+              <li>
+                <img src="images/4.jfif" alt="">
+                <p>Jazz Dance</p>
+              </li>
+              <li>
+                <img src="images/5.jfif" alt="">
+                <p>Classical dance</p>
+              </li>
+              <li>
+                <img src="images/6.jfif" alt="">
+                <p>waltz</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="list">
+       <a href="http://www.gditu.net/"><img src="images/dt.png" alt=""></a> 
+          <h2>School address</h2>
+          <p>Sydney, New South Wales, Australia</p>
+         
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 底部 -->
+  <div class="footer">
+    <div class="inner-1200">
+     
+    </div>
+   <div class="copyright inner-1200">
+      <p>The University of Sydney Dance</p>
+    </div>
+  </div>
+</body>
+
+</html>

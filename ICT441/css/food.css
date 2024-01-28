@@ -1,0 +1,83 @@
+/* banner */
+.banner img {
+  display: block;
+  width: 100%;
+}
+/* 主体 */
+.main .inner-1200 .container {
+  overflow: hidden;
+}
+.main .inner-1200 .container .sidebar {
+  float: right;
+  width: 340px;
+}
+.main .inner-1200 .container .sidebar .sidebox {
+  padding: 15px 10px;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+.main .inner-1200 .container .sidebar .sidebox h2 {
+  padding: 10px 15px;
+  background-color: #f5f5f5;
+}
+.main .inner-1200 .container .sidebar .sidebox .tag ul {
+  overflow: hidden;
+}
+.main .inner-1200 .container .sidebar .sidebox .tag ul li {
+  float: left;
+  width: 50%;
+  margin-top: 15px;
+  text-align: left;
+}
+.main .inner-1200 .container .sidebar .sidebox .pic {
+  overflow: hidden;
+}
+.main .inner-1200 .container .sidebar .sidebox .pic li {
+  float: left;
+  width: 50%;
+}
+.main .inner-1200 .container .sidebar .sidebox .pic li img {
+  width: 150px;
+  height: 120px;
+  border-radius: 5px;
+}
+.main .inner-1200 .container .sidebar .sidebox .pic li p {
+  text-align: center;
+  font-size: 16px;
+  margin: 10px 0;
+}
+.main .inner-1200 .container .sidebar .sidebox .tools {
+  overflow: hidden;
+}
+.main .inner-1200 .container .sidebar .sidebox .tools li {
+  float: left;
+  width: 50%;
+  margin-top: 15px;
+  text-align: left;
+}
+.main .inner-1200 .container .list {
+  float: left;
+  width: 850px;
+  padding: 15px 0;
+}
+.main .inner-1200 .container .list .item {
+  float: left;
+  width: 200px;
+  margin: 15px 10px 15px 0;
+}
+.main .inner-1200 .container .list .item img {
+  width: 100%;
+}
+.main .inner-1200 .container .list .item span {
+  display: block;
+  margin: 10px 0;
+}
+.main .inner-1200 .container .list .item p {
+  border-top: #ddd dotted 1px;
+  padding-top: 6px;
+  height: 60px;
+  overflow: hidden;
+  line-height: 1.5;
+}

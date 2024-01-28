@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>旋转木马</title>
+	<style>
+		body{/*整体部分*/
+			-webkit-perspective: 800px;
+			-webkit-perspective-origin: center -40% ;
+		}
+        header {
+		background-color: #dd4b39;
+		color: #fff;
+		padding: 20px;
+		text-align: center;
+	}
+
+	nav {
+		background-color: #eee;
+		padding: 10px;
+		text-align: center;
+	}
+
+	nav ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+	}
+
+	nav ul li {
+		display: inline-block;
+		margin-right: 10px;
+	}
+
+	nav ul li a {
+		color: #333;
+		display: block;
+		padding: 10px 15px;
+		text-decoration: none;
+	}
+
+	nav ul li a:hover {
+		background-color: #fff; 
+		color: #dd4b39;
+	}
+    .cont {
+			margin: 0 auto;
+			background-color: #fff;
+			box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+			text-align: center;
+    }
+		#container{
+			width: 100px;
+			height: 120px;/*不能忘记给container设置高，否则会塌陷*/
+			position: relative;
+			margin: 200px auto;
+			-webkit-transform-style: preserve-3d;
+			-webkit-transition: -webkit-transform 1s ease;	
+		}
+
+
+		#container img{
+			width: 100px;
+			position: absolute;
+			left: 0;
+			top: 0;
+		}
+		#container img:nth-child(1){
+			-webkit-animation: showone 0.5s ease forwards;
+		}
+		@-webkit-keyframes showone{
+			from{
+				/*-webkit-transform: translateZ(180px);*/
+			}
+			to{
+				-webkit-transform: rotateY(40deg)translateZ(300px);
+			}
+		}
+		#container img:nth-child(2){
+			-webkit-animation: showtwo 1s ease 0.3s forwards;
+		}
+		@-webkit-keyframes showtwo{
+			from{
+				/*-webkit-transform: translateZ(160px);*/
+			}
+			to{
+				-webkit-transform: rotateY(80deg)translateZ(300px);
+			}
+		}
+		#container img:nth-child(3){
+			-webkit-animation: showthree 1s ease 0.6s forwards;
+		}
+		@-webkit-keyframes showthree{
+			from{
+				/*-webkit-transform: translateZ(140px);*/
+			}
+			to{
+				-webkit-transform: rotateY(120deg)translateZ(300px);
+			}
+		}
+		#container img:nth-child(4){
+			-webkit-animation: showfour 1s ease 0.9s forwards;
+		}
+		@-webkit-keyframes showfour{
+			from{
+				/*-webkit-transform: translateZ(120px);*/
+			}
+			to{
+				-webkit-transform: rotateY(160deg)translateZ(300px);
+			}
+		}
+		#container img:nth-child(5){
+			-webkit-animation: showfive 1s ease 1.2s forwards;
+		}
+		@-webkit-keyframes showfive{
+			from{
+			/*	-webkit-transform: translateZ(100px);*/
+			}
+			to{
+				-webkit-transform: rotateY(200deg)translateZ(300px);
+			}
+		}
+		#container img:nth-child(6){
+			-webkit-animation: showsix 1s ease 1.5s forwards;
+		}
+		@-webkit-keyframes showsix{
+			from{
+				/*-webkit-transform: translateZ(80px);*/
+			}
+			to{
+				-webkit-transform: rotateY(240deg)translateZ(300px);
+			}
+		}
+		#container img:nth-child(7){
+			-webkit-animation: showseven 1s ease 1.8s forwards;
+		}
+		@-webkit-keyframes showseven{
+			from{
+				/*-webkit-transform: translateZ(60px);*/
+			}
+			to{
+				-webkit-transform: rotateY(280deg)translateZ(300px);
+			}
+		}
+		#container img:nth-child(8){
+			-webkit-animation: showeight 1s ease 2.1s forwards;
+		}
+		@-webkit-keyframes showeight{
+			from{
+				/*-webkit-transform: translateZ(40px);*/
+			}
+			to{
+				-webkit-transform: rotateY(320deg)translateZ(300px);
+			}
+		}
+		#container img:nth-child(9){
+			-webkit-animation: showten 1s ease 2.4s forwards;
+		}
+		@-webkit-keyframes showten{
+			from{
+				/*-webkit-transform: translateZ(20px);*/
+			}
+			to{
+				-webkit-transform: translateZ(300px);
+			}
+		}
+		footer
+		{
+			text-align: center;
+		}
+		
+
+	</style>
+</head>
+<body>
+    <div class="cont">
+		
+		<h1>header</h1>
+        <nav>
+            <ul>
+				<li><a href="home.html">1</a></li>
+				<li><a href="2.html">2</a></li>
+				<li><a href="3.html">3</a></li>
+            
+            </ul>
+            </nav>
+	</div>
+	<div id="container">
+		<img src="img/1.png" alt="">
+		<img src="img/2.png" alt="">
+		<img src="img/3.png" alt="">
+		<img src="img/4.png" alt="">
+		<img src="img/5.png" alt="">
+		<img src="img/6.png" alt="">
+		<img src="img/7.png" alt="">
+		<img src="img/3.png" alt="">
+		<img src="img/5.png" alt="">
+
+	</div>
+	<script src='jquery-1.12.4.js'></script>
+	<script>
+		$(function(){
+			var dg = 0;
+			$('body').on('click',function(){
+				dg+=40;
+				$('#container').css('-webkit-transform','rotateY('+dg+'deg)');
+				console.log('rotateY('+dg+')deg');
+			});
+		});
+	</script>
+<footer><p>2</p></footer>
+</body>
+</html>

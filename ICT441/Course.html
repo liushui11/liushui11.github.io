@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/planning.css">
+</head>
+
+<body>
+  <!-- 头部 -->
+  <div class="header">
+    <div class="inner-1200">
+      <div class="logo">
+        <p style="color:#fff; margin-top:25px; font-size:20px; font-family:Tahoma, Geneva, sans-serif; ">The University of Sydney Dance</p>
+      </div>
+      <div class="nav">
+        <ul>
+         <li><a href="index.html">Home</a></li>
+          <li><a href="About.html">About</a></li>
+          <li><a href="Course.html">Course</a></li>
+          <li><a href="Information.html"> Information</a></li>
+          <li><a href="Address.html">Address</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- banner -->
+  <div class="banner">
+    <img src="images/bj.png" alt="" height="149">
+  </div>
+
+  <!-- 主体 -->
+  <div class="main">
+    <div class="inner-1200">
+      <div class="container">
+        <!--侧边栏-->
+        <div class="sidebar">
+          <div class="sidebox">
+            <h2>课程推荐</h2>
+            <div class="tag">
+              <ul>
+                <li>ballet</li>
+                <li>Latin dance</li>
+                <li>Hip-hop</li>
+                <li>Jazz Dance</li>
+                <li>Classical dance</li>
+                <li>waltz</li>
+                <li>Gb</li>
+              </ul>
+            </div>
+          </div>
+          <div class="sidebox">
+            <h2>热门舞种</h2>
+            <ul class="pic">
+              <li>
+                <img src="images/1.jfif" alt="">
+                <p>ballet</p>
+              </li>
+              <li>
+                <img src="images/3.jfif" alt="">
+                <p>Latin dance</p>
+              </li>
+              <li>
+                <img src="images/7.jfif" alt="">
+                <p>GB</p>
+              </li>
+              <li>
+                <img src="images/4.jfif" alt="">
+                <p>Jazz Dance</p>
+              </li>
+              <li>
+                <img src="images/5.jfif" alt="">
+                <p>Classical dance</p>
+              </li>
+              <li>
+                <img src="images/6.jfif" alt="">
+                <p>waltz</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="list">
+          <img src="images/yyj.webp" alt="">
+          <h3>30822QLD – Classical and Contemporary Dance, (Musical Theatre & Commercial Dance)</h3>
+          <p>ANZSCO Identifier 211199 Actors, dancers and other entertainers 
+ASCO (Occupational Type) Identifier 2538 Actors, Dancers, and Related Professionals 
+ASCED Qualifications/Programs Educational Field Identifier 1001 Performing Arts 
+Qualifications/CoursesEducational Level Identifier 411 Advanced Diploma 
+Nationally recognized training type 12 courses 
+Classification History
+Schedule the password classification value start date and end date
+ANZSCO Identifier 211199 Actors, Dancers and Other Entertainers July 31, 2009   
+ASCO (Occupational Type) Identifier 2538 Actors, Dancers, and Related Professionals July 31, 2009   
+ASCED Qualifications/Programs Education Field Identifier 1001 Performing Arts July 31, 2009   
+Qualifications/CoursesEducational Level Identifier 411 Advanced Diploma 31 July 2009   
+Nationally recognized training type 12 courses on July 31, 2009   
+          </p>
+          <h3>10508NAT - Musical Theatre and Commercial Dance</h3>
+          <p>Theatre dance is a synthesis of dance movements, character dialogues, and lyrics, requiring performers to dance in accordance with the characters in the play and to be able to complete the tasks of the drama in the dance. Theater dance involves a variety of dance types, and the choreographer chooses the use of dance elements according to the needs of the plot, which is an indispensable part of the musical, often plays a role in promoting the development of the storyline of the musical, and is a compulsory course for musical theater actors.</p>
+          <h3>21685VIC - Classical Dance</h3>
+          <p>It is generally referred to as ballet. Ballet is a transliteration of the French Ballet. Classical dance dramas in European countries are collectively known as ballet, which is a kind of dance variety that uses European classical dance as the main means of expression and integrates music, drama, stage art and other art forms. It is commonly known as "pointe dancing" because an important feature of the performance technique is that the actress wears special pointe dancing shoes and dances on pointe. According to legend, ballet first originated in Italy, formed in France, and was introduced to Russia in the 18th century. It became an independent and complete art form at the end of the eighteenth century and the beginning of the nineteenth century, creating pointe dance techniques, developing various aerial jumping and spinning techniques, and producing a complete set of training methods, gradually forming the Italian, French and Russian schools with different stylistic characteristics. After the 20s of the 20th century, modern ballet schools appeared, and many ballet schools were derived one after another, which became popular in Europe and the United States. [3]</p>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 底部 -->
+  <div class="footer">
+    <div class="inner-1200">
+      
+    </div>
+   <div class="copyright inner-1200">
+      <p>The University of Sydney Dance</p>
+    </div>
+  </div>
+</body>
+
+</html>

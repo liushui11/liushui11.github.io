@@ -1,0 +1,27 @@
+
+.main {
+	width: 860px;
+	padding: 50px;
+	height: auto;
+	background:#fff; 
+	margin: auto;
+	font-size: 16px;
+	line-height: 36px;
+	color: #333;
+}
+.main2 {
+	width: 860px;
+	padding: 50px;
+	height: auto;
+	background:#fff; 
+	margin: auto;
+}
+.page {
+	width: 930px;
+	padding-left: 30px;
+	height: 30px;
+	margin: auto;
+	background: #ffffff;
+	font-size: 18px;
+	color: #333;
+}
